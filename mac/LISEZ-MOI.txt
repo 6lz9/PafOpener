@@ -1,0 +1,23 @@
+PafOpener pour Mac
+==================
+
+Prérequis : Google Chrome installé dans le dossier Applications.
+
+Installation
+1. Double-cliquez sur PafOpener.zip : PafOpener.app apparaît.
+2. Glissez PafOpener.app dans le dossier Applications.
+
+Premier lancement (une seule fois)
+L'application n'est pas signée par Apple : macOS la bloque la première fois.
+1. Double-cliquez sur PafOpener.app. Un message dit qu'Apple ne peut pas la vérifier : cliquez sur « Terminé ».
+2. Ouvrez Réglages Système → Confidentialité et sécurité, descendez en bas de la page
+   et cliquez sur « Ouvrir quand même » à côté de PafOpener. Confirmez avec votre mot de passe.
+Ensuite, PafOpener s'ouvre d'un simple double-clic.
+
+Si macOS dit que l'application est « endommagée », ouvrez l'app Terminal et tapez :
+    xattr -dr com.apple.quarantine /Applications/PafOpener.app
+puis relancez PafOpener.
+
+Vos réglages, le profil Chrome dédié et les journaux sont rangés dans :
+    ~/Library/Application Support/PafOpener
+(dans le Finder : menu Aller → Aller au dossier…, puis collez ce chemin).

@@ -1,0 +1,11 @@
+.venv/
+chrome_profile/
+inspection/
+logs/
+__pycache__/
+*.bak
+settings.json
+build/
+dist/
+*.spec
+livraison/

@@ -1,0 +1,19 @@
+<!doctype html>
+<!-- RÉEL : relevé ecran_20261014_114311_460 -->
+<html lang="fr"><head><meta charset="utf-8"><title>WikiMasters</title><style>.flex,.inline-flex{display:flex}.flex-col{flex-direction:column}.items-center{align-items:center}</style></head>
+<body style="margin:0"><div style="display:flex"><main class="min-h-0 flex-1 overflow-y-auto pt-[calc(env(safe-area-inset-top,0px)+2.75rem+0.75rem)] md:pt-0"><div class="flex-1 flex flex-col items-center justify-center gap-4 md:gap-8 p-4 md:p-6"><div class="text-center animate-fade-in-up"><h1 class="text-3xl md:text-4xl font-bold mb-2" style="font-family: var(--font-heading);">Ouvrir un paquet</h1><p class="text-[var(--color-foreground)]/50 text-sm">Découvrez 5 nouvelles cartes Wikipédia</p><div class="mt-2 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-xs"><button class="text-[var(--color-accent)]/70 hover:text-[var(--color-accent)] transition-colors cursor-pointer">Comment ça marche ?</button></div></div><button class="
+          relative flex flex-col items-center justify-center gap-4
+          disabled:opacity-40 disabled:cursor-not-allowed
+          transition-all duration-300 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]
+          
+          hover:scale-105 hover:-translate-y-2 drop-shadow-xl hover:drop-shadow-[0_10px_25px_rgba(0,0,0,0.3)]
+        "><img alt=""><span class="text-lg md:text-xl font-bold text-[var(--color-accent)] drop-shadow-md">Ouvrir</span></button><div class="flex flex-col items-center gap-3 animate-fade-in-up"><div class="card-frame px-6 py-3 flex flex-col items-center gap-1 text-center"><div class="text-lg font-bold"><span class="text-[var(--color-accent)]">6</span><span class="text-[var(--color-foreground)]/40"> / 10</span></div><div class="text-xs text-[var(--color-foreground)]/40">paquets disponibles</div><div class="text-xs text-[var(--color-foreground)]/40">Prochain dans <span class="text-[var(--color-accent)] font-mono">1:02</span></div></div></div><div class="w-full max-w-sm animate-fade-in-up rounded-xl border border-violet-500/25 bg-violet-950/20 px-4 py-3 flex flex-col gap-2"><p class="text-xs font-medium text-violet-200/90">Pack PRO du jour</p><p class="text-[11px] text-[var(--color-foreground)]/45 text-center">Déjà réclamé aujourd’hui (heure de ton appareil). Reviens demain&nbsp;!</p></div></div></main></div>
+<script>
+window.__clics = [];
+document.addEventListener('click', (e) => {
+  const b = e.target.closest('button');
+  const tous = [...document.querySelectorAll('main button')];
+  window.__clics.push(b ? {index: tous.indexOf(b), texte: (b.innerText || '').trim(),
+                          aria: b.getAttribute('aria-label')} : {index: -1, tag: e.target.tagName});
+}, true);
+</script></body></html>
