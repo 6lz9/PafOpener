@@ -1,0 +1,21 @@
+{
+  "capacite_packs": 10,
+  "delai_indicatif_s": 180,
+  "objectif_ouvertures": 0,
+  "seuil_min": 3,
+  "seuil_max": 8,
+  "intervalle_lecture_s": 1.0,
+  "delai_resultat_s": 10.0,
+  "intervalle_min_clics_s": 2.0,
+  "delai_clic_min_s": 0.8,
+  "delai_clic_max_s": 1.8,
+  "lectures_stables_requises": 2,
+  "lectures_incertaines_tolerees": 1,
+  "reprise_auto_verification": true,
+  "lectures_normales_reprise": 3,
+  "alerte_verification_s": 10.0,
+  "verification_delai_max_s": 600.0,
+  "vitesse_simulation": 10.0,
+  "discord_webhook_url": "https://discord.com/api/webhooks/1559897052761170012/EeWxY2o17uQHFGIo5LzQP0HGjnZq1ry8qxZDfYXX65ENlW-bUZ-KfzzGvDcQHKg5qjpo",
+  "discord_bilan_session": true
+}
